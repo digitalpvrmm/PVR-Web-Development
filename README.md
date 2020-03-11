@@ -9,12 +9,12 @@
     - 1.1 assests
       - 1.1.1 css
       - 1.1.2 images (JPG only)
-      - 1.1.2.1 favicons
-      - 1.1.2.2 products
-      - 1.1.2.3 video (if any)
-      - 1.1.2.4 Other
-    - 1.1.3 javascript
-    - 1.1.4 lib
+         - 1.1.2.1 favicons
+         - 1.1.2.2 products
+         - 1.1.2.3 video (if any)
+         - 1.1.2.4 Other
+      - 1.1.3 javascript
+      - 1.1.4 lib
 
 - Home page
 - About Us
