@@ -973,12 +973,12 @@ div[data-overlay] ul {
 /**! 7.  Nav bar **/
 /*---------- 7. NAVIGATION ----------*/
 .nav-container {
-  /* -webkit-backface-visibility: hidden; */
+  -webkit-backface-visibility: hidden;
   max-width: 100%;
 }
 nav {
-  background: rgb(41, 41, 41);
-  /* -webkit-backface-visibility: hidden; */
+  background: #fff;
+  -webkit-backface-visibility: hidden;
   max-width: 100%;
 }
 nav ul {
@@ -1076,8 +1076,8 @@ nav.bg-dark .logo-dark {
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 1px;
-  color: white;
-  opacity: 1;
+  color: #292929;
+  opacity: 0.7;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   max-width: 100%;
@@ -1109,7 +1109,7 @@ nav.bg-dark .logo-dark {
 .menu > li ul {
   width: 200px;
   padding: 8px 0;
-  background: black;
+  background: #292929;
   position: absolute;
   z-index: 99;
   opacity: 0;
@@ -1203,7 +1203,7 @@ nav.bg-dark .logo-dark {
 }
 @media all and (max-width: 1100px) {
   .nav-block.nav-widget {
-    padding: 10px 16px;
+    padding: 0 16px;
   }
 }
 .nav-block.nav-widget i {
@@ -1226,7 +1226,7 @@ nav.bg-dark .logo-dark {
   position: absolute;
   z-index: 99;
   opacity: 0;
-  -webkit-transition: all 0.5s ease;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   -webkit-transform: translate3d(0, 10px, 0);
   transform: translate3d(0, 10px, 0);
@@ -1249,7 +1249,7 @@ nav.bg-dark .logo-dark {
   display: none;
   opacity: 0.5;
   -webkit-transition: all 0.3s ease;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .nav-block.nav-widget .title:hover {
   opacity: 1;
@@ -1408,7 +1408,7 @@ nav .cart-preview a {
     overflow: hidden;
   }
   .nav-bar .nav-block {
-    padding: 6px 16px;
+    padding: 0 16px;
   }
   .nav-bar .nav-block-group {
     width: 100%;
@@ -1614,7 +1614,7 @@ nav.transparent .logo-light {
   nav.transparent .nav-open .menu > li > a,
   nav.transparent .nav-open .nav-block.nav-widget i,
   nav.transparent .nav-open .nav-utility {
-    color: white;
+    color: #292929;
   }
   nav.transparent .nav-open .logo-dark {
     display: inline;
@@ -1623,7 +1623,7 @@ nav.transparent .logo-light {
     display: none;
   }
   nav.transparent .nav-open .has-dropdown:after {
-    color: white;
+    color: #292929;
   }
   .menu > li:last-child > ul ul,
   .menu > li:nth-last-child(2) > ul ul {
@@ -1641,11 +1641,11 @@ nav.transparent.fixed .logo-dark {
 }
 nav.transparent.fixed .menu > li > a,
 nav.transparent.fixed .nav-block.nav-widget i {
-  color: white;
+  color: #292929;
 }
 nav.transparent.fixed .menu > .has-dropdown:after {
   color: #fff;
-  color: white;
+  color: #939393;
 }
 nav.transparent.fixed .menu > li > a,
 nav.transparent.fixed .nav-block.nav-widget i {
@@ -1718,10 +1718,10 @@ nav.nav-centered.nav-hidden .logo {
   position: relative;
   top: 2px;
   vertical-align: bottom;
-  background: white;
+  background: #292929;
   white-space: nowrap;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 @media all and (max-width: 990px) {
   .nav-bar .ham {
@@ -1741,11 +1741,11 @@ nav.nav-centered.nav-hidden .logo {
   display: inline-block;
   width: 23px;
   height: 2px;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
   outline: 1px solid transparent;
   left: 0;
-  background: white;
+  background: #292929;
 }
 .nav-bar.exit {
   -webkit-animation: none;
@@ -4247,9 +4247,3 @@ img + .boxed {
     padding-bottom: 240px;
   }
 }
-
-
-/* Starting own css
-.title {
-
-} */
